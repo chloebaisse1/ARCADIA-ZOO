@@ -18,7 +18,7 @@ function checkCredentials() {
     // placer ce token en cookie
 
     setCookie(RoleCookieName, "admin", 7)
-    window.location.replace("./pages/auth/admin.html")
+    window.location.replace("/admin")
     //rediriger vers la page admin
   } else {
     mailInput.classList.add("is-invalid")
@@ -32,7 +32,7 @@ function checkCredentials() {
     setToken(token)
     // placer ce token en cookie
     setCookie(RoleCookieName, "veterinaire", 7)
-    window.location.replace("./pages/auth/veterinaire.html")
+    window.location.replace("/veterinaire")
     //rediriger vers la page veterinaire
   } else {
     mailInput.classList.add("is-invalid")
@@ -45,7 +45,7 @@ function checkCredentials() {
     setToken(token)
     // placer ce token en cookie
     setCookie(RoleCookieName, "employe", 7)
-    window.location.replace("./pages/auth/employe.html")
+    window.location.replace("/employe")
     //rediriger vers la page employe
   } else {
     mailInput.classList.add("is-invalid")
