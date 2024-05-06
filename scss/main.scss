@@ -30,7 +30,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/images/ecologie.jpeg);
+    background-image: url(../images/ecologie.jpeg);
     background-size: cover;
   }
 
@@ -43,6 +43,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
 }
 // Remove the unnecessary closing curly brace
@@ -118,9 +119,6 @@ p {
   background-color: $secondary;
   display: flex;
 }
-.btn {
-  background-color: $primary;
-}
 .visite {
   text-align: right;
   margin: 3;
@@ -137,11 +135,13 @@ p {
   position: absolute;
   bottom: 1;
   font-style: italic;
-  text-align: center;
-}
-.btn-primary {
   text-align: justify;
 }
+.btn-primary {
+  background-color: $secondary;
+  display: flex;
+}
+
 .marais {
   position: relative;
   width: 200px;
