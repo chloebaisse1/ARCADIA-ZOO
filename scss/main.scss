@@ -38,7 +38,7 @@ p {
     position: relative;
   }
   .image-fond-content {
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,10 +64,8 @@ p {
 .image-macaque,
 .image-perroquet {
   position: relative;
-  height: 400px;
-  width: 400px;
-  grid-area: 1/1/2/2;
-
+  height: 300px;
+  width: 300px;
   &:hover {
     .titre-image {
       opacity: 1;
@@ -90,25 +88,10 @@ p {
     transition: all 0.3s;
   }
 }
+
 .avis {
   line-height: 2;
   text-align: justify;
-}
-.image-marais {
-  height: 400px;
-  width: 400px;
-  position: relative;
-}
-.image-jungle {
-  height: 300px;
-  width: 300px;
-  position: relative;
-}
-.image-savane {
-  height: 400px;
-  width: 400px;
-  position: relative;
-  display: inline-block;
 }
 .habitats {
   text-align: justify;
@@ -137,23 +120,23 @@ p {
   font-style: italic;
   text-align: justify;
 }
-.btn-primary {
-  background-color: $secondary;
-  display: flex;
-}
 
 .marais {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .jungle {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .savane {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+}
+.btn btn-primary {
+  background-color: $primary;
+  border-color: $primary;
 }
