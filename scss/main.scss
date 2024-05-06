@@ -94,22 +94,6 @@ p {
   line-height: 2;
   text-align: justify;
 }
-.image-marais {
-  height: 400px;
-  width: 400px;
-  position: relative;
-}
-.image-jungle {
-  height: 300px;
-  width: 300px;
-  position: relative;
-}
-.image-savane {
-  height: 400px;
-  width: 400px;
-  position: relative;
-  display: inline-block;
-}
 .habitats {
   text-align: justify;
   margin-bottom: auto;
@@ -137,23 +121,23 @@ p {
   font-style: italic;
   text-align: justify;
 }
-.btn-primary {
-  background-color: $secondary;
-  display: flex;
-}
 
 .marais {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .jungle {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .savane {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+}
+.btn btn-primary {
+  background-color: $primary;
+  border-color: $primary;
 }
