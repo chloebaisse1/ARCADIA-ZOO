@@ -11999,8 +11999,10 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/ecologie.jpeg);
+  background-image: url(../images/ciel\ bleu.jpg);
   background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
 }
 .image-fond * {
   position: relative;
