@@ -12029,13 +12029,13 @@ p {
 .image-crocodile,
 .image-heron,
 .image-iguane,
+.image-perroquet,
 .image-toucan,
-.image-singe,
 .image-macaque,
-.image-perroquet {
+.image-singe {
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }
 .image-elephant:hover .titre-image,
 .image-lion:hover .titre-image,
@@ -12045,10 +12045,10 @@ p {
 .image-crocodile:hover .titre-image,
 .image-heron:hover .titre-image,
 .image-iguane:hover .titre-image,
+.image-perroquet:hover .titre-image,
 .image-toucan:hover .titre-image,
-.image-singe:hover .titre-image,
 .image-macaque:hover .titre-image,
-.image-perroquet:hover .titre-image {
+.image-singe:hover .titre-image {
   opacity: 1;
 }
 .image-elephant:hover img,
@@ -12059,10 +12059,10 @@ p {
 .image-crocodile:hover img,
 .image-heron:hover img,
 .image-iguane:hover img,
+.image-perroquet:hover img,
 .image-toucan:hover img,
-.image-singe:hover img,
 .image-macaque:hover img,
-.image-perroquet:hover img {
+.image-singe:hover img {
   filter: brightness(0.3);
 }
 .image-elephant img,
@@ -12073,10 +12073,10 @@ p {
 .image-crocodile img,
 .image-heron img,
 .image-iguane img,
+.image-perroquet img,
 .image-toucan img,
-.image-singe img,
 .image-macaque img,
-.image-perroquet img {
+.image-singe img {
   transition: all 0.3s;
 }
 .image-elephant .titre-image,
@@ -12087,10 +12087,10 @@ p {
 .image-crocodile .titre-image,
 .image-heron .titre-image,
 .image-iguane .titre-image,
+.image-perroquet .titre-image,
 .image-toucan .titre-image,
-.image-singe .titre-image,
 .image-macaque .titre-image,
-.image-perroquet .titre-image {
+.image-singe .titre-image {
   position: absolute;
   text-align: center;
   top: 30%;
@@ -12138,25 +12138,16 @@ p {
   text-align: justify;
 }
 
-.marais {
-  position: relative;
-  width: 400px;
-  height: 400px;
-}
-
-.jungle {
-  position: relative;
-  width: 400px;
-  height: 400px;
-}
-
-.savane {
-  position: relative;
-  width: 400px;
-  height: 400px;
-}
-
 .btn btn-primary {
   background-color: #b4c978;
   border-color: #b4c978;
+}
+
+.container-img {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
