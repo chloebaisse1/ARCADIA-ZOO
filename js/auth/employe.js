@@ -7,7 +7,10 @@ btnEmploye.addEventListener("click", checkCredentials)
 function checkCredentials() {
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 
-  if (mailInput.value == "employe@mail.com" && passwordInput.value == "456") {
+  if (
+    mailInput.value == "employe@mail.com" &&
+    passwordInput.value == "ZqelCOJD"
+  ) {
     alert("Vous êtes connecté")
     // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 

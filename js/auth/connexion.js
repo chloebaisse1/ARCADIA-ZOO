@@ -11,7 +11,7 @@ btnEmploye.addEventListener("click", checkCredentials)
 function checkCredentials() {
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 
-  if (mailInput.value == "test@mail.com" && passwordInput.value == "123") {
+  if (mailInput.value == "test@mail.com" && passwordInput.value == "YYJU1pY5") {
     // Il faudra recuperer le vrai token
     const token = " jgleoejfngmfopefjg"
     setToken(token)
@@ -26,7 +26,7 @@ function checkCredentials() {
   }
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 
-  if (mailInput.value == "veto@mail.com" && passwordInput.value == "456") {
+  if (mailInput.value == "veto@mail.com" && passwordInput.value == "d5A8koVM") {
     // Il faudra recuperer le vrai token
     const token = " glroeoelepeeee"
     setToken(token)
@@ -39,7 +39,10 @@ function checkCredentials() {
     passwordInput.classList.add("is-invalid")
   }
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
-  if (mailInput.value == "employe@mail.com" && passwordInput.value == "789") {
+  if (
+    mailInput.value == "employe@mail.com" &&
+    passwordInput.value == "ZqelCOJD"
+  ) {
     // Il faudra recuperer le vrai token
     const token = "lalaorehggggoe"
     setToken(token)

@@ -7,7 +7,7 @@ btnAdmin.addEventListener("click", checkCredentials)
 function checkCredentials() {
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 
-  if (mailInput.value == "test@mail.com" && passwordInput.value == "123") {
+  if (mailInput.value == "test@mail.com" && passwordInput.value == "YYJU1pY5") {
     alert("Vous êtes connecté")
 
     // Il faudra recuperer le vrai token

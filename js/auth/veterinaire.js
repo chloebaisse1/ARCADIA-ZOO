@@ -7,7 +7,7 @@ btnVeterinaire.addEventListener("click", checkCredentials)
 function checkCredentials() {
   // Ici il faudra appeler l'API pour vérifier les credentials en BDD
 
-  if (mailInput.value == "veto@mail.com" && passwordInput.value == "678") {
+  if (mailInput.value == "veto@mail.com" && passwordInput.value == "d5A8koVM") {
     alert("Vous êtes connecté")
 
     // Il faudra recuperer le vrai token
