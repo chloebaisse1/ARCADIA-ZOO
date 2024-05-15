@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}AdminEntity{% endblock %}
+
+{% block body %}
+    <h1>AdminEntity</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ admin_entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Admin</th>
+                <td>{{ admin_entity.admin }}</td>
+            </tr>
+            <tr>
+                <th>Return</th>
+                <td>{{ admin_entity.return }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_admin_entity_index') }}">back to list</a>
+
+    <a href="{{ path('app_admin_entity_edit', {'id': admin_entity.id}) }}">edit</a>
+
+    {{ include('admin_entity/_delete_form.html.twig') }}
+{% endblock %}

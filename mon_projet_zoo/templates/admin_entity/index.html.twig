@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %} {% block title %}AdminEntity index{% endblock %}
+{% block body %}
+<h1>Bienvenue sur la page Admin</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Admin</th>
+      <th>Return</th>
+      <th>actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for admin_entity in admin_entities %}
+    <tr>
+      <td>{{ admin_entity.id }}</td>
+      <td>{{ admin_entity.admin }}</td>
+      <td>{{ admin_entity.return }}</td>
+      <td>
+        <a href="{{ path('app_admin_entity_show', { id: admin_entity.id }) }}"
+          >show</a
+        >
+        <a href="{{ path('app_admin_entity_edit', { id: admin_entity.id }) }}"
+          >edit</a
+        >
+      </td>
+    </tr>
+    {% else %}
+    <tr>
+      <td colspan="4">no records found</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<a href="{{ path('app_admin_entity_new') }}">Create new</a>
+{% endblock %}
