@@ -1,6 +1,8 @@
 CREATE TABLE Horaire(
-  date varchar(150),
-  heure TIME
+  Id_horaire INT PRIMARY KEY AUTO_INCREMENT
+  jour_semaine VARCHAR(100),
+  heure_debut TIME,
+  heure_fin TIME
 );
-INSERT INTO Horaire(date, heure) VALUES
-('Ouvert tous les jours, vacances et jours feriés inclus', '09:00:00 - 18:00:00');
+INSERT INTO Horaire(Id_horaire, jour_semaine, heure_debut, heure_fin) VALUES
+(1, 'Lundi', '9:00', '18:00');
