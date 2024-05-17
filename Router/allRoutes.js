@@ -11,6 +11,7 @@ export const allRoutes = [
     "/pages/auth/connexion.html",
     "/js/auth/connexion.js"
   ),
+  new Route("/inscription", "Inscription", "/pages/auth/inscription.html"),
   new Route("/contact", "Contact", "/pages/contact.html"),
   new Route("/admin", "Admin", "/pages/auth/admin.html", "/js/auth/admin.js"),
   new Route(
@@ -30,6 +31,25 @@ export const allRoutes = [
   new Route("/savane", "Savane", "/pages/leshabitats/savane.html"),
   new Route("/marais", "Marais", "/pages/leshabitats/marais.html"),
   new Route("/habitats", "Retour page habitats", "/pages/habitats.html"),
+
+  new Route(
+    "/modifier",
+    "Modifier",
+    "/pages/auth/modifier.html",
+    "/js/auth/modifier.js"
+  ),
+  new Route(
+    "/ajouter",
+    "Ajouter",
+    "/pages/auth/ajouter.html",
+    "/js/auth/ajouter.js"
+  ),
+  new Route(
+    "/supprimer",
+    "Supprimer",
+    "/pages/auth/supprimer.html",
+    "/js/auth/supprimer.js"
+  ),
 ]
 //Le titre s'affiche comme ceci : Route.titre - websitename
 export const websiteName = "Arcadia Zoo"

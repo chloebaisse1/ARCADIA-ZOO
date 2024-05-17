@@ -1,4 +1,4 @@
-CREATE TABLE Employe(
+CREATE TABLE EspaceEmploye(
   animal_id INT,
   nourriture varchar(50),
   quantité INT,

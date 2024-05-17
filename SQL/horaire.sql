@@ -1,6 +1,6 @@
 CREATE TABLE Horaire(
   Id_horaire INT PRIMARY KEY AUTO_INCREMENT
-  jour_semaine VARCHAR(100),
+  jour VARCHAR(100),
   heure_debut TIME,
   heure_fin TIME
 );
