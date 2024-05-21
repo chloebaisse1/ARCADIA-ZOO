@@ -6,10 +6,10 @@ CREATE TABLE Users(
 );
 
 INSERT INTO Users(name, surname, email)
-VALUES ('Dupont', 'José', 'test@mail.com')
+VALUES ('Leroi', 'José', 'test@mail.com')
 INSERT INTO Users(name, surname, email)
 VALUES ('Garçias', 'Marc', 'veto@mail.com');
 
 INSERT INTO Users(name, surname, email)
-VALUES ('Leroi', 'Caroline', 'employe@mail.com');
+VALUES ('Dupont', 'Caroline', 'employe@mail.com');
 

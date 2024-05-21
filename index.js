@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "root",
-  database: "Zoo",
+  database: "arcadia",
   socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
 })
 

@@ -4,4 +4,4 @@ CREATE TABLE Service(
   description TEXT
 );
 INSERT INTO Service(id, nom, description) VALUES
-(3, 'Mon petit guide', 'visite des differents habitats du zoo avec un guide( gratuit)');
+(3, 'Visite guidée', 'visite des differents habitats du zoo avec un guide( gratuit)');

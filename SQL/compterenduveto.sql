@@ -7,4 +7,4 @@ CREATE TABLE Compterenduveto(
   detail TEXT
 );
 INSERT INTO Compterenduveto(animal_id, etat, nourriture, quantité, date, detail) VALUES
-(13, 'en pleine forme', 'graines', '600g','2024-04-18', 'Coco apprend a dire bonjour et merci');
+(13, 'en pleine forme', 'graines', '600g','2024-04-18', 'Coco apprend a parler, il faut le solliciter');
