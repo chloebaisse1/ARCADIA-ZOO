@@ -12131,13 +12131,6 @@ p {
   margin: 3;
 }
 
-.container-eco {
-  position: absolute;
-  bottom: 1;
-  font-style: italic;
-  text-align: justify;
-}
-
 .btn btn-primary {
   background-color: #b4c978;
   border-color: #b4c978;
