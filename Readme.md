@@ -45,14 +45,14 @@ Creation application web pour le ZOO Arcadia
 - page index.html avec le contenu de mon site
 - page Home.html qui sera la page d'accueil
 
-- 1 dossier Pages avec a l'interieur :
+- 1 dossier Pages avec à l'interieur :
 - page habitats ( vue globale qui references les 3 habitats)
 - page services (descriptions des differents services proposés)
 - page avis (formulaire)
 - page contact (formulaire)
 - page de connexion
 
-a l'interieur du dossier pages j'ai egalement cration d'un autre dossier concernant les habitats ( 1 page par habitats)
+à l'interieur du dossier pages j'ai egalement crée un autre dossier concernant les habitats ( 1 page par habitats)
 
 - Jungle
 - Marais
@@ -86,6 +86,39 @@ a l'interieur du dossier pages j'ai egalement cration d'un autre dossier concern
 
 - Un dossier SQL qui contient :
   - creation base de donnée + tables
+
+Mise en ligne et Déploiement : (front end)
+
+Mise en ligne du site :
+
+- Utilisation d’alwaysData pour avoir un hébergeur .
+- Création de compte gratuit sur alwaysData avec un hébergement de 100Mo Gratuit.
+Création de notre projet à l’intérieur
+Configuration des paramètres(pour déploiement de fichiers statiques)
+Configuration d’Apache pour configurer notre routage de serveur.(Pas d’utilisation du système de routage d’Apache car je l’ai codé en JavaScript)
+Pour configurer le routage j’ai entré le code suivant :
+RewriteEngine On
+RewriteRule ^/[a-zA-Z0-9]+[/]?$ /index.html [QSA,L]
+
+C’est une règle de réécriture qui consiste à rediriger toutes les URL qui correspondent au modèle spécifié ( avec lettres, caractère spéciaux, barre oblique..)vers /index.html. Afin de charger le fichier index.html sans modifier l’URL.
+
+Déploiement :
+Utilisation de FileZilla ( logiciel de client FTP ( file transfère protocol)) open source permettant de transférer des fichiers entre un ordinateur local et un serveur distant via FTP, SFTP ou FTPS.
+
+Télécharger FileZilla en allant directement sur le site officiel.
+Récupération des informations disponible sur notre projet alwaysData : 
+
+Hote :
+Nom d’utilisateur :
+Mot de passe ( défini après inscription)
+
+Il faut ensuite se rendre sur FileZilla et entrer les informations demandées ci-dessus puis cliquer sur « connexion rapide ». Apres cela nous pouvons voir les fichiers et dossiers présents sur notre serveur.
+Effectuer un cliquer-glisser vers le serveur pour envoyer nos fichiers. Le contenu doit être envoyé dans le dossier /WWW/.
+
+Déploiement continu :
+Utilisation de GitHub Actions afin de mettre a jour notre site à chaque modifications de la branche main via FTP .
+Dans l’onglet « Actions » sur notre repository GitHub, il faut cliquer sur « set up a workflow yourself » et suivre les étapes.
+
 
 # Fabriqué avec :
 
