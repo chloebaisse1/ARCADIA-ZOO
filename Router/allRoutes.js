@@ -26,7 +26,7 @@ export const allRoutes = [
     "/pages/auth/employe.html",
     "/js/auth/employe.js"
   ),
-  new Route("/avis", "Avis", "/pages/avis.html"),
+  new Route("/avis", "Avis", "/pages/avis.html", "/js/avis.js"),
   new Route("/jungle", "Jungle", "/pages/leshabitats/jungle.html"),
   new Route("/savane", "Savane", "/pages/leshabitats/savane.html"),
   new Route("/marais", "Marais", "/pages/leshabitats/marais.html"),

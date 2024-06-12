@@ -21,7 +21,8 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "button-type": "off"
   },
   "browserslist": [
     "defaults",

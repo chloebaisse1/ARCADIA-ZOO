@@ -6,5 +6,5 @@ router.get("/", (req, res) => {
 })
 router.get("/:id", (req, res) => {
   req.params.id
-module.exports = router
-
+  module.exports = router
+})
