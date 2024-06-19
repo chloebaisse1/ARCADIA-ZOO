@@ -12,7 +12,7 @@ export const allRoutes = [
     "/js/auth/connexion.js"
   ),
   new Route("/inscription", "Inscription", "/pages/auth/inscription.html"),
-  new Route("/contact", "Contact", "/pages/contact.html"),
+  new Route("/contact", "Contact", "/pages/contact.html", "/js/contact.js"),
   new Route("/admin", "Admin", "/pages/auth/admin.html", "/js/auth/admin.js"),
   new Route(
     "/veterinaire",
